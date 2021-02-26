@@ -2,6 +2,17 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <style>
+      .homepage-btn{
+        background-color: #6a81bb;
+        border: none;
+      }
+      .navbar-nav{
+        display: initial;
+      }
+      
+    </style>
+
     <title>Bootstrap Example Template</title>
     <meta charset="utf-8">
     <!-- Viewport Meta Tag -->
@@ -11,36 +22,41 @@
   </head>
   <body>
 
-    <nav class="navbar navbar-expand-sm navbar-light bg-faded">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#nav-content" aria-controls="nav-content" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-        </button>
-        
-        <!-- Brand -->
-        <a class="navbar-brand" href="#">Logo</a>
-        
-        <!-- Links -->
-        <div class="collapse navbar-collapse" id="nav-content">   
-        <ul class="navbar-nav mr-auto">
-        <li class="nav-item">
-        <a class="nav-link" href="#">Link 1</a>
-        </li>
-        <li class="nav-item">
-        <a class="nav-link" href="#">Link 2</a>
-        </li>
-        </ul>
-        
-        <!-- Search -->
-        <form class="form-inline" role="search">
-        <input type="text" class="form-control">
-        <button type="submit" class="btn btn-secondary">Search</button>
-        </form>
-        </nav>
+
 	
 	
     <!-- YOUR CONTENT STARTS HERE -->
+
+    <nav class="navbar navbar-inverse" style="background-color: #eef1f7; border: none; box-shadow: 1px 1px 1px 1px rgba(141, 141, 141, 0.3);">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <a class="navbar-brand" onMouseOver="this.style.color='#6a81bb'" onMouseOut="this.style.color='rgb(157 157 158)'" href="#"> Website Logo
+            <!-- <img alt="Qries" src="images/logo.jpeg"
+         width="50" height="50"> -->
+          </a>
+        </div>
+        <ul class="nav navbar-nav list-stop" style="display: initial;">
+          <li class="active" ><a href="#" style="background-color: #6a81bb;">Home</a></li>
+          <li><a href="#" onMouseOver="this.style.color='#6a81bb'" onMouseOut="this.style.color='rgb(157 157 158)'">Link</a></li>
+          <li><a href="#" onMouseOver="this.style.color='#6a81bb'" onMouseOut="this.style.color='rgb(157 157 158)'">Link</a></li>
+        </ul>
+        <button class="homepage-btn btn btn-danger navbar-btn homepage-btn" style="background-color: #6a81bb; border: none;">Button</button>
+      </div>
+    </nav>
+
+
 		
     <!-- YOUR CONTENT ENDS HERE -->
+
+
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 
     <!-- JavaScript: placed at the end of the document so the pages load faster -->
