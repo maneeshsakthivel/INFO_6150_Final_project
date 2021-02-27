@@ -22,6 +22,29 @@
                 padding-left: 10px;
             }
 
+            *{padding:0;margin:0;}
+
+/* body{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:18px;
+	background-color:#CCC;
+} */
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+
+
             
         </style>
 
@@ -33,6 +56,8 @@
     element.innerHTML = counter;
     
   }
+
+
 </script>
 </head>
 
@@ -316,11 +341,38 @@
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
       <label class="form-check-label" for="exampleCheck1" style = "margin-left: 20px;">Remember me</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Join Us!
+    </button>
+    
   </form>
   <img src = "team-doctors-vector-illustration-flat-cartoon-style-172481976-removebg-preview.png" style = "float:right; margin-top: -300px; margin-left: 100px;"></img>
 </div>
 <!-- Sukadha -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Thank You!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Contact us</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal -->
+
+
 
 
 
@@ -340,6 +392,7 @@
     </div>
   </div>
   <hr>
+  
   
   <!-- Right-aligned media object -->
   <div class="media">
@@ -367,6 +420,41 @@
 
 </div>
 
+<div style="width: 70%;display: flex;margin-left: auto;/* margin-right: auto; */vertical-align: middle;gap: 88px;">
+  <img src="images/logo.jpeg" class="img-thumbnail" alt="..." style="width: 30%;">
+  <ul class="list-group list-group-flush" style="padding-top: 10px;">  
+<h2>About us</h2>
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+</div>
+
+
+<!-- Code begins here -->
+
+<!-- <a href="#" class="float"> -->
+  <button type="button" class="float btn btn-primary" id="liveToastBtn">+</button>
+  <div class="position-fixed bottom-0 end-0 p-3" style="z-index: 10">
+    <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+      <div class="toast-header">
+        <img src="..." class="rounded me-2" alt="...">
+        <strong class="me-auto">Bootstrap</strong>
+        <small>11 mins ago</small>
+        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      </div>
+      <div class="toast-body">
+        Hello, world! This is a toast message.
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+
+<!-- <i class="fa fa-plus my-float"></i> -->
+<!-- </a> -->
 
 
   <!-- YOUR CONTENT ENDS HERE -->
@@ -377,6 +465,8 @@
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
     integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
     crossorigin="anonymous"></script>
+
+    <!-- <script src="/docs/5.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script> -->
 
   <!-- Popper -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
