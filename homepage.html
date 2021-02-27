@@ -68,6 +68,7 @@
 
   <!-- YOUR CONTENT STARTS HERE -->
 
+  <!-- navbar -->
   <nav class="navbar navbar-inverse" style="background-color: #eef1f7; border: none; box-shadow: 1px 1px 1px 1px rgba(141, 141, 141, 0.3);">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -87,18 +88,46 @@
       </button>
     </div>
   </nav>
+  <!-- navbar -->
 
-  <!-- Search bar -->
+    <!-- Search bar -->
 
-  <div class="input-group mb-3">
-    <input type="text" class="form-control" style="width: 30%; margin-left : 30%;" placeholder="Search for a doctor now" aria-label="Search term" aria-describedby="basic-addon">
-    <div class="input-group-append" >
-      <button class="btn btn-secondary" type="button">GO!</button>
+    <div class="input-group mb-3">
+      <input type="text" class="form-control" style="width: 30%; margin-left : 30%;" placeholder="Search for a doctor now" aria-label="Search term" aria-describedby="basic-addon">
+      <div class="input-group-append" >
+        <button class="btn btn-secondary" type="button">GO!</button>
+      </div>
     </div>
-  </div>
+  
+    <!-- Search bar -->
 
-  <br>
-  <br>
+  <!-- Sukadha form -->
+<div class = "container" style = "width: 980px; height: 500px; background-color: white; margin-top: 40px;">
+  <form style = "width: 40%; margin-left: 25px; margin-top: 20px; float:left;">
+    <h2>Join Us!</h2>
+    <div class = "mb-3">
+      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+      <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
+    </div>
+    <div class="mb-3">
+      <label for="exampleInputPassword1" class="form-label">Password</label>
+      <input type="password" class="form-control" id="exampleInputPassword1">
+    </div>
+    <div class="mb-3 form-check">
+      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+      <label class="form-check-label" for="exampleCheck1" style = "margin-left: 20px;">Remember me</label>
+    </div>
+    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      Join Us!
+    </button>
+    
+  </form>
+  <img src = "team-doctors-vector-illustration-flat-cartoon-style-172481976-removebg-preview.png" style = "float:right; margin-top: -300px; margin-left: 100px;"></img>
+</div>
+<!-- Sukadha -->
+
+
 
   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
     <ol class="carousel-indicators">
@@ -111,10 +140,10 @@
         <img class="d-block w-100" src="carousel2.jpg" alt="First slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="carousel2.jpg" alt="Second slide">
+        <img class="d-block w-100" src="slider1.jpg" alt="Second slide">
       </div>
       <div class="carousel-item">
-        <img class="d-block w-100" src="carousel2.jpg" alt="Third slide">
+        <img class="d-block w-100" src="slider2.jpeg" alt="Third slide">
       </div>
     </div>
     <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
@@ -130,18 +159,6 @@
   <br>
   <br>
 
-  <!-- Forums jumbotron -->
-
-  <div class="jumbotron" style="width: 80%; margin: auto;">
-    <h3 class="display-2" style="font-size: 4rem;">Join our forums today</h3>
-    <p class="lead" style="font-size: 18px;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
-    
-    <p class="lead">
-      <a class="btn btn-primary btn-lg" href="#" role="button">Join now!!</a>
-    </p>
-  </div>
-  <br>
-  <br>
   <!--Card for Services starts here-->
   <div class="container">
     <div class="row">
@@ -251,6 +268,24 @@
       </div>
     </div>
   </div>
+  <br>
+  <br>
+
+  <!-- Forums jumbotron -->
+
+  <div class="jumbotron" style="width: 80%; margin: auto;">
+    <h3 class="display-2" style="font-size: 4rem;">Join our forums today</h3>
+    <p class="lead" style="font-size: 18px;">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+    
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Join now!!</a>
+    </p>
+  </div>
+  <br>
+  
+    <!-- Forums jumbotron -->
+
+  
   <!--Accordions for FAQ's starts here-->
   
   <br>
@@ -324,31 +359,7 @@
 </div>
 <!--container-->
 
-<!-- Sukadha -->
-<div class = "container" style = "width: 980px; height: 500px; background-color: white; margin-top: 40px;">
-  <form style = "width: 40%; margin-left: 25px; margin-top: 100px; float:left;">
-    <h2>Join Us!</h2>
-    <div class = "mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
-      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
-    </div>
-    <div class="mb-3">
-      <label for="exampleInputPassword1" class="form-label">Password</label>
-      <input type="password" class="form-control" id="exampleInputPassword1">
-    </div>
-    <div class="mb-3 form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1" style = "margin-left: 20px;">Remember me</label>
-    </div>
-    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
-      Join Us!
-    </button>
-    
-  </form>
-  <img src = "team-doctors-vector-illustration-flat-cartoon-style-172481976-removebg-preview.png" style = "float:right; margin-top: -300px; margin-left: 100px;"></img>
-</div>
-<!-- Sukadha -->
+
 
 <!-- Modal -->
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -371,9 +382,24 @@
   </div>
 </div>
 <!-- Modal -->
+<br>
+<br>
+<!-- About us -->
 
+<div style="width: 70%;display: flex;margin-left: auto;/* margin-right: auto; */vertical-align: middle;gap: 88px;">
+  <img src="images/logo.jpeg" class="img-thumbnail" alt="..." style="width: 30%;">
+  <ul class="list-group list-group-flush" style="padding-top: 10px;">  
+<h2>About us</h2>
+    <li class="list-group-item">An item</li>
+    <li class="list-group-item">A second item</li>
+    <li class="list-group-item">A third item</li>
+    <li class="list-group-item">A fourth item</li>
+    <li class="list-group-item">And a fifth one</li>
+  </ul>
+</div>
+<!-- About us -->
 
-
+<br>
 
 
 <!-- Testimonials -->
@@ -420,17 +446,6 @@
 
 </div>
 
-<div style="width: 70%;display: flex;margin-left: auto;/* margin-right: auto; */vertical-align: middle;gap: 88px;">
-  <img src="images/logo.jpeg" class="img-thumbnail" alt="..." style="width: 30%;">
-  <ul class="list-group list-group-flush" style="padding-top: 10px;">  
-<h2>About us</h2>
-    <li class="list-group-item">An item</li>
-    <li class="list-group-item">A second item</li>
-    <li class="list-group-item">A third item</li>
-    <li class="list-group-item">A fourth item</li>
-    <li class="list-group-item">And a fifth one</li>
-  </ul>
-</div>
 
 
 <!-- Code begins here -->
